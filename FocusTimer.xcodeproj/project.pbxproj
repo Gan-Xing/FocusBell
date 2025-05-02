@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A24F4C502DC50AE300FDFC3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A24F4C3A2DC50AE100FDFC3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A24F4C412DC50AE100FDFC3D;
+			remoteInfo = FocusTimer;
+		};
+		A24F4C5A2DC50AE300FDFC3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A24F4C3A2DC50AE100FDFC3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A24F4C412DC50AE100FDFC3D;
+			remoteInfo = FocusTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A24F4C422DC50AE100FDFC3D /* FocusTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24F4C4F2DC50AE300FDFC3D /* FocusTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocusTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24F4C592DC50AE300FDFC3D /* FocusTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocusTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A24F4C442DC50AE100FDFC3D /* FocusTimer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FocusTimer;
+			sourceTree = "<group>";
+		};
+		A24F4C522DC50AE300FDFC3D /* FocusTimerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FocusTimerTests;
+			sourceTree = "<group>";
+		};
+		A24F4C5C2DC50AE300FDFC3D /* FocusTimerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FocusTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A24F4C3F2DC50AE100FDFC3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A24F4C4C2DC50AE300FDFC3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A24F4C562DC50AE300FDFC3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A24F4C392DC50AE100FDFC3D = {
+			isa = PBXGroup;
+			children = (
+				A24F4C442DC50AE100FDFC3D /* FocusTimer */,
+				A24F4C522DC50AE300FDFC3D /* FocusTimerTests */,
+				A24F4C5C2DC50AE300FDFC3D /* FocusTimerUITests */,
+				A24F4C432DC50AE100FDFC3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A24F4C432DC50AE100FDFC3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A24F4C422DC50AE100FDFC3D /* FocusTimer.app */,
+				A24F4C4F2DC50AE300FDFC3D /* FocusTimerTests.xctest */,
+				A24F4C592DC50AE300FDFC3D /* FocusTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A24F4C412DC50AE100FDFC3D /* FocusTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A24F4C632DC50AE300FDFC3D /* Build configuration list for PBXNativeTarget "FocusTimer" */;
+			buildPhases = (
+				A24F4C3E2DC50AE100FDFC3D /* Sources */,
+				A24F4C3F2DC50AE100FDFC3D /* Frameworks */,
+				A24F4C402DC50AE100FDFC3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A24F4C442DC50AE100FDFC3D /* FocusTimer */,
+			);
+			name = FocusTimer;
+			packageProductDependencies = (
+			);
+			productName = FocusTimer;
+			productReference = A24F4C422DC50AE100FDFC3D /* FocusTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A24F4C4E2DC50AE300FDFC3D /* FocusTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A24F4C662DC50AE300FDFC3D /* Build configuration list for PBXNativeTarget "FocusTimerTests" */;
+			buildPhases = (
+				A24F4C4B2DC50AE300FDFC3D /* Sources */,
+				A24F4C4C2DC50AE300FDFC3D /* Frameworks */,
+				A24F4C4D2DC50AE300FDFC3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A24F4C512DC50AE300FDFC3D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A24F4C522DC50AE300FDFC3D /* FocusTimerTests */,
+			);
+			name = FocusTimerTests;
+			packageProductDependencies = (
+			);
+			productName = FocusTimerTests;
+			productReference = A24F4C4F2DC50AE300FDFC3D /* FocusTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A24F4C582DC50AE300FDFC3D /* FocusTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A24F4C692DC50AE300FDFC3D /* Build configuration list for PBXNativeTarget "FocusTimerUITests" */;
+			buildPhases = (
+				A24F4C552DC50AE300FDFC3D /* Sources */,
+				A24F4C562DC50AE300FDFC3D /* Frameworks */,
+				A24F4C572DC50AE300FDFC3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A24F4C5B2DC50AE300FDFC3D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A24F4C5C2DC50AE300FDFC3D /* FocusTimerUITests */,
+			);
+			name = FocusTimerUITests;
+			packageProductDependencies = (
+			);
+			productName = FocusTimerUITests;
+			productReference = A24F4C592DC50AE300FDFC3D /* FocusTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A24F4C3A2DC50AE100FDFC3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					A24F4C412DC50AE100FDFC3D = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					A24F4C4E2DC50AE300FDFC3D = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = A24F4C412DC50AE100FDFC3D;
+					};
+					A24F4C582DC50AE300FDFC3D = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = A24F4C412DC50AE100FDFC3D;
+					};
+				};
+			};
+			buildConfigurationList = A24F4C3D2DC50AE100FDFC3D /* Build configuration list for PBXProject "FocusTimer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A24F4C392DC50AE100FDFC3D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A24F4C432DC50AE100FDFC3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A24F4C412DC50AE100FDFC3D /* FocusTimer */,
+				A24F4C4E2DC50AE300FDFC3D /* FocusTimerTests */,
+				A24F4C582DC50AE300FDFC3D /* FocusTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A24F4C402DC50AE100FDFC3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A24F4C4D2DC50AE300FDFC3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A24F4C572DC50AE300FDFC3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A24F4C3E2DC50AE100FDFC3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A24F4C4B2DC50AE300FDFC3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A24F4C552DC50AE300FDFC3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A24F4C512DC50AE300FDFC3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A24F4C412DC50AE100FDFC3D /* FocusTimer */;
+			targetProxy = A24F4C502DC50AE300FDFC3D /* PBXContainerItemProxy */;
+		};
+		A24F4C5B2DC50AE300FDFC3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A24F4C412DC50AE100FDFC3D /* FocusTimer */;
+			targetProxy = A24F4C5A2DC50AE300FDFC3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A24F4C612DC50AE300FDFC3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = ATB393JUT6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A24F4C622DC50AE300FDFC3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ATB393JUT6;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A24F4C642DC50AE300FDFC3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ATB393JUT6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ganxing.FocusTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A24F4C652DC50AE300FDFC3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ATB393JUT6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ganxing.FocusTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A24F4C672DC50AE300FDFC3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ATB393JUT6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ganxing.FocusTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FocusTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FocusTimer";
+			};
+			name = Debug;
+		};
+		A24F4C682DC50AE300FDFC3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ATB393JUT6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ganxing.FocusTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FocusTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FocusTimer";
+			};
+			name = Release;
+		};
+		A24F4C6A2DC50AE300FDFC3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ATB393JUT6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ganxing.FocusTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FocusTimer;
+			};
+			name = Debug;
+		};
+		A24F4C6B2DC50AE300FDFC3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ATB393JUT6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ganxing.FocusTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FocusTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A24F4C3D2DC50AE100FDFC3D /* Build configuration list for PBXProject "FocusTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A24F4C612DC50AE300FDFC3D /* Debug */,
+				A24F4C622DC50AE300FDFC3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A24F4C632DC50AE300FDFC3D /* Build configuration list for PBXNativeTarget "FocusTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A24F4C642DC50AE300FDFC3D /* Debug */,
+				A24F4C652DC50AE300FDFC3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A24F4C662DC50AE300FDFC3D /* Build configuration list for PBXNativeTarget "FocusTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A24F4C672DC50AE300FDFC3D /* Debug */,
+				A24F4C682DC50AE300FDFC3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A24F4C692DC50AE300FDFC3D /* Build configuration list for PBXNativeTarget "FocusTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A24F4C6A2DC50AE300FDFC3D /* Debug */,
+				A24F4C6B2DC50AE300FDFC3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A24F4C3A2DC50AE100FDFC3D /* Project object */;
+}
