@@ -24,25 +24,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A24F4C422DC50AE100FDFC3D /* FocusTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A24F4C4F2DC50AE300FDFC3D /* FocusTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocusTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A24F4C592DC50AE300FDFC3D /* FocusTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocusTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24F4C422DC50AE100FDFC3D /* FocusBell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusBell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24F4C4F2DC50AE300FDFC3D /* FocusBellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocusBellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24F4C592DC50AE300FDFC3D /* FocusBellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocusBellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A24F4C442DC50AE100FDFC3D /* FocusTimer */ = {
+		A24F4C442DC50AE100FDFC3D /* FocusBell */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FocusTimer;
+			path = FocusBell;
 			sourceTree = "<group>";
 		};
-		A24F4C522DC50AE300FDFC3D /* FocusTimerTests */ = {
+		A24F4C522DC50AE300FDFC3D /* FocusBellTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FocusTimerTests;
+			path = FocusBellTests;
 			sourceTree = "<group>";
 		};
-		A24F4C5C2DC50AE300FDFC3D /* FocusTimerUITests */ = {
+		A24F4C5C2DC50AE300FDFC3D /* FocusBellUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FocusTimerUITests;
+			path = FocusBellUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		A24F4C392DC50AE100FDFC3D = {
 			isa = PBXGroup;
 			children = (
-				A24F4C442DC50AE100FDFC3D /* FocusTimer */,
-				A24F4C522DC50AE300FDFC3D /* FocusTimerTests */,
-				A24F4C5C2DC50AE300FDFC3D /* FocusTimerUITests */,
+				A24F4C442DC50AE100FDFC3D /* FocusBell */,
+				A24F4C522DC50AE300FDFC3D /* FocusBellTests */,
+				A24F4C5C2DC50AE300FDFC3D /* FocusBellUITests */,
 				A24F4C432DC50AE100FDFC3D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		A24F4C432DC50AE100FDFC3D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A24F4C422DC50AE100FDFC3D /* FocusTimer.app */,
-				A24F4C4F2DC50AE300FDFC3D /* FocusTimerTests.xctest */,
-				A24F4C592DC50AE300FDFC3D /* FocusTimerUITests.xctest */,
+				A24F4C422DC50AE100FDFC3D /* FocusBell.app */,
+				A24F4C4F2DC50AE300FDFC3D /* FocusBellTests.xctest */,
+				A24F4C592DC50AE300FDFC3D /* FocusBellUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A24F4C412DC50AE100FDFC3D /* FocusTimer */ = {
+		A24F4C412DC50AE100FDFC3D /* FocusBell */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A24F4C632DC50AE300FDFC3D /* Build configuration list for PBXNativeTarget "FocusTimer" */;
+			buildConfigurationList = A24F4C632DC50AE300FDFC3D /* Build configuration list for PBXNativeTarget "FocusBell" */;
 			buildPhases = (
 				A24F4C3E2DC50AE100FDFC3D /* Sources */,
 				A24F4C3F2DC50AE100FDFC3D /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				A24F4C442DC50AE100FDFC3D /* FocusTimer */,
+				A24F4C442DC50AE100FDFC3D /* FocusBell */,
 			);
-			name = FocusTimer;
+			name = FocusBell;
 			packageProductDependencies = (
 			);
 			productName = FocusTimer;
-			productReference = A24F4C422DC50AE100FDFC3D /* FocusTimer.app */;
+			productReference = A24F4C422DC50AE100FDFC3D /* FocusBell.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A24F4C4E2DC50AE300FDFC3D /* FocusTimerTests */ = {
+		A24F4C4E2DC50AE300FDFC3D /* FocusBellTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A24F4C662DC50AE300FDFC3D /* Build configuration list for PBXNativeTarget "FocusTimerTests" */;
+			buildConfigurationList = A24F4C662DC50AE300FDFC3D /* Build configuration list for PBXNativeTarget "FocusBellTests" */;
 			buildPhases = (
 				A24F4C4B2DC50AE300FDFC3D /* Sources */,
 				A24F4C4C2DC50AE300FDFC3D /* Frameworks */,
@@ -131,18 +131,18 @@
 				A24F4C512DC50AE300FDFC3D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				A24F4C522DC50AE300FDFC3D /* FocusTimerTests */,
+				A24F4C522DC50AE300FDFC3D /* FocusBellTests */,
 			);
-			name = FocusTimerTests;
+			name = FocusBellTests;
 			packageProductDependencies = (
 			);
 			productName = FocusTimerTests;
-			productReference = A24F4C4F2DC50AE300FDFC3D /* FocusTimerTests.xctest */;
+			productReference = A24F4C4F2DC50AE300FDFC3D /* FocusBellTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A24F4C582DC50AE300FDFC3D /* FocusTimerUITests */ = {
+		A24F4C582DC50AE300FDFC3D /* FocusBellUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A24F4C692DC50AE300FDFC3D /* Build configuration list for PBXNativeTarget "FocusTimerUITests" */;
+			buildConfigurationList = A24F4C692DC50AE300FDFC3D /* Build configuration list for PBXNativeTarget "FocusBellUITests" */;
 			buildPhases = (
 				A24F4C552DC50AE300FDFC3D /* Sources */,
 				A24F4C562DC50AE300FDFC3D /* Frameworks */,
@@ -154,13 +154,13 @@
 				A24F4C5B2DC50AE300FDFC3D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				A24F4C5C2DC50AE300FDFC3D /* FocusTimerUITests */,
+				A24F4C5C2DC50AE300FDFC3D /* FocusBellUITests */,
 			);
-			name = FocusTimerUITests;
+			name = FocusBellUITests;
 			packageProductDependencies = (
 			);
 			productName = FocusTimerUITests;
-			productReference = A24F4C592DC50AE300FDFC3D /* FocusTimerUITests.xctest */;
+			productReference = A24F4C592DC50AE300FDFC3D /* FocusBellUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A24F4C3D2DC50AE100FDFC3D /* Build configuration list for PBXProject "FocusTimer" */;
+			buildConfigurationList = A24F4C3D2DC50AE100FDFC3D /* Build configuration list for PBXProject "FocusBell" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -210,9 +210,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A24F4C412DC50AE100FDFC3D /* FocusTimer */,
-				A24F4C4E2DC50AE300FDFC3D /* FocusTimerTests */,
-				A24F4C582DC50AE300FDFC3D /* FocusTimerUITests */,
+				A24F4C412DC50AE100FDFC3D /* FocusBell */,
+				A24F4C4E2DC50AE300FDFC3D /* FocusBellTests */,
+				A24F4C582DC50AE300FDFC3D /* FocusBellUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -268,12 +268,12 @@
 /* Begin PBXTargetDependency section */
 		A24F4C512DC50AE300FDFC3D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A24F4C412DC50AE100FDFC3D /* FocusTimer */;
+			target = A24F4C412DC50AE100FDFC3D /* FocusBell */;
 			targetProxy = A24F4C502DC50AE300FDFC3D /* PBXContainerItemProxy */;
 		};
 		A24F4C5B2DC50AE300FDFC3D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A24F4C412DC50AE100FDFC3D /* FocusTimer */;
+			target = A24F4C412DC50AE100FDFC3D /* FocusBell */;
 			targetProxy = A24F4C5A2DC50AE300FDFC3D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -420,7 +420,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.ganxing.FocusTimer;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ganxing.FocusBell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -448,7 +448,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.ganxing.FocusTimer;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ganxing.FocusBell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -471,7 +471,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FocusTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FocusTimer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FocusBell.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FocusBell";
 			};
 			name = Debug;
 		};
@@ -490,7 +490,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FocusTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FocusTimer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FocusBell.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FocusBell";
 			};
 			name = Release;
 		};
@@ -531,7 +531,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A24F4C3D2DC50AE100FDFC3D /* Build configuration list for PBXProject "FocusTimer" */ = {
+		A24F4C3D2DC50AE100FDFC3D /* Build configuration list for PBXProject "FocusBell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A24F4C612DC50AE300FDFC3D /* Debug */,
@@ -540,7 +540,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A24F4C632DC50AE300FDFC3D /* Build configuration list for PBXNativeTarget "FocusTimer" */ = {
+		A24F4C632DC50AE300FDFC3D /* Build configuration list for PBXNativeTarget "FocusBell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A24F4C642DC50AE300FDFC3D /* Debug */,
@@ -549,7 +549,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A24F4C662DC50AE300FDFC3D /* Build configuration list for PBXNativeTarget "FocusTimerTests" */ = {
+		A24F4C662DC50AE300FDFC3D /* Build configuration list for PBXNativeTarget "FocusBellTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A24F4C672DC50AE300FDFC3D /* Debug */,
@@ -558,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A24F4C692DC50AE300FDFC3D /* Build configuration list for PBXNativeTarget "FocusTimerUITests" */ = {
+		A24F4C692DC50AE300FDFC3D /* Build configuration list for PBXNativeTarget "FocusBellUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A24F4C6A2DC50AE300FDFC3D /* Debug */,
