@@ -1,0 +1,7 @@
+start = "開始";
+pause = "一時停止";
+resume = "再開";
+reset = "リセット";
+countdown = "残り時間：%d 秒";
+rounds = "完了したラウンド：%d";
+elapsed = "経過時間：%d 分"; 

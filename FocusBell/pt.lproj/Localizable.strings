@@ -1,0 +1,7 @@
+start = "Iniciar";
+pause = "Pausar";
+resume = "Retomar";
+reset = "Redefinir";
+countdown = "Contagem regressiva: %d segundos";
+rounds = "Rodadas concluídas: %d";
+elapsed = "Tempo decorrido: %d minutos"; 

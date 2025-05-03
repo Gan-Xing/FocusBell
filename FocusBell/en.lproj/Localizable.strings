@@ -1,0 +1,7 @@
+start = "Start";
+pause = "Pause";
+resume = "Resume";
+reset = "Reset";
+countdown = "Countdown: %d seconds";
+rounds = "Rounds completed: %d";
+elapsed = "Time elapsed: %d minutes"; 

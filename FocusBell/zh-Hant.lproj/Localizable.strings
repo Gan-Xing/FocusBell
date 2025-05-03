@@ -1,0 +1,7 @@
+start = "開始";
+pause = "暫停";
+resume = "繼續";
+reset = "重設";
+countdown = "倒數計時：%d 秒";
+rounds = "已完成回合：%d";
+elapsed = "累計時間：%d 分鐘"; 

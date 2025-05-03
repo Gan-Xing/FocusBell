@@ -1,0 +1,7 @@
+start = "시작";
+pause = "일시 정지";
+resume = "계속";
+reset = "초기화";
+countdown = "남은 시간: %d초";
+rounds = "완료한 라운드 수: %d";
+elapsed = "경과 시간: %d분"; 

@@ -1,0 +1,7 @@
+start = "Démarrer";
+pause = "Pause";
+resume = "Reprendre";
+reset = "Réinitialiser";
+countdown = "Compte à rebours : %d secondes";
+rounds = "Tours terminés : %d";
+elapsed = "Temps écoulé : %d minutes";
