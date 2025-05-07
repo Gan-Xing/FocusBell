@@ -93,11 +93,11 @@ struct ContentView: View {
         beepPlayed     = false
         isRunning      = true
         isPaused       = false
-        cycleStartTime = Date().timeIntervalSince1970
-
+        
         startBackgroundTimer()
         startKeepAliveAudio()
         scheduleBeepNotification()
+        cycleStartTime = Date().timeIntervalSince1970
     }
 
     // MARK: - 后台定时
@@ -226,7 +226,7 @@ struct ContentView: View {
         roundsCompleted += fullRounds
         countdown        = cycleDuration - leftover
         totalSecondsElapsed += delta
-        dingTime         = Int.random(in: 1...(cycleDuration * 3 / 5))
+
         beepPlayed       = countdown <= dingTime
 
         cycleStartTime = now - TimeInterval(leftover)
